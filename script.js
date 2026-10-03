@@ -58,7 +58,7 @@ function displayNotes() {
 }
 
 function saveNotes() {
-  localStrage.setItem("notes", JSON.stringify(notes));
+  localStorage.setItem("notes", JSON.stringify(notes));
 }
 
 
@@ -96,4 +96,4 @@ form.addEventListener("submit", function(event) {
 searchInput.addEventListener("input", displayNotes);
 
 
-displaynotes()
+displayNotes()
