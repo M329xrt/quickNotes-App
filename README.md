@@ -23,6 +23,7 @@ QuickNotes App is a simple note-taking app that helps users create, organize, se
 
 
 **what i learnt**
+
 *Patience!!! taking time to actually understand the concept and what this does coding and still getting stuck and learning again
 *a single mispelt word can cause the whole code to crash , i learnt to be very keen in what I'm coding
 *most importantly learning to enjoy the process because it matters 
