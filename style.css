@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #333;
+   color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding:20px;
+}
+
+form {
+  display: flex;
+  gap:10px;
+  flex-wrap: wrap;
+}
+
+input, select {
+  padding:10px;
+}
+
+
+button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+
+.note {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  background-color: white;
+}
+
+
+.personal {
+  border-left: 5px solid blue;
+}
+
+.study {
+  border-left: 5px solid green;
+}
+
+.work {
+  border-left: 5px solid orange;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+
+@media (max-width: 600px) {
+  main {
+    padding: 10px;
+  }
+
+  form {
+    flex-direction: column;
+  }
+
+  input, select, button {
+    width: 100%;
+  }
+}
